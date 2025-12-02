@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Ashraf Ali - Software Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- SCSS Modularization Example: main.scss imports _variables.scss, _navbar.scss, _hero.scss, _timeline.scss, _certificates.scss, _contact.scss, _footer.scss -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header role="banner">
+        <div class="nav-container">
+            <div class="logo">MOHAMMAD ASHRAF</div>
+            <nav role="navigation" aria-label="Main Navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                            <i class="fas fa-moon" id="theme-icon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <button class="mobile-menu" aria-label="Open mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero section">
+        <div class="floating-elements">
+            <div class="floating-element" style="top: 10%; left: 10%; width: 60px; height: 60px; animation-delay: 0s;"></div>
+            <div class="floating-element" style="top: 70%; right: 10%; width: 80px; height: 80px; animation-delay: 2s;"></div>
+            <div class="floating-element" style="top: 40%; left: 80%; width: 40px; height: 40px; animation-delay: 4s;"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Mohammad Ashraf Ali</h1>
+                    <div class="subtitle">Software Application Developer</div>
+                    <p>🎓 IT Graduate | 💡 Software Developer | 🤖 AI & LLM Enthusiast | 📱 Smart Solutions Builder | UTAS Ibri 2025</p>
+                    <p>Passionate about creating intelligent systems that blend software, hardware, and AI to solve real-world problems, especially within the context of emerging technologies.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                         <a href="certificates/Mohammad US Resume.pdf" class="btn btn-secondary" download>
+                     <i class="fas fa-download"></i> Download Resume (PDF)
+                    </a>
+                    </div>
+                </div>
+<div class="hero-image">
+    <div class="profile-card">
+        <div class="profile-pic">
+            <img src="Mohammad/Mohammadasrafali.png" alt="Profile Photo" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;" class="lightbox-trigger">
+        </div>
+        <h3>Software Developer</h3>
+        <p>Frontend & Backend & Mobile application & Desktop Software</p>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+                Software Application Development graduate (2025) from the University of Technology and Applied Sciences, Ibri. Specialized in AI-driven solutions with expertise in Large Language Models, IoT integration, and privacy-first architectures. Developed an award-winning smart home assistant leveraging LLMs and Raspberry Pi for local, cloud-independent automation. Published IEEE researcher with proven experience in enterprise IT operations and cloud computing (Azure AZ-900, AWS ML certified).
+                </p>
+            </div>
+        </div>
+    </section>
+
+   <section id="skills" class="section">
+    <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category card-hover">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Nods.js</span>
+                    <span class="skill-tag">Flutter</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">Dart</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
+            </div>
+
+            <div class="skill-category card-hover">
+                <h3><i class="fas fa-mobile-alt"></i> Development Frameworks</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Flutter</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">ASP.NET Core</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Web Development</span>
+                </div>
+            </div>
+
+            <div class="skill-category card-hover">
+                <h3><i class="fas fa-robot"></i> AI & IoT</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">AI Systems</span>
+                    <span class="skill-tag">LLMs</span>
+                    <span class="skill-tag">Raspberry Pi</span>
+                    <span class="skill-tag">IoT</span>
+                </div>
+            </div>
+
+            <div class="skill-category card-hover">
+                <h3><i class="fas fa-tools"></i> Tools & Version Control</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Postman</span>
+                    <span class="skill-tag">Visual Studio</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">IntelliJ </span>
+                    <span class="skill-tag">NetBeans </span>
+                    <span class="skill-tag">PyCharm </span>
+                    <span class="skill-tag">Android Studio</span>
+                </div>
+            </div>
+
+            <div class="skill-category card-hover">
+                <h3><i class="fas fa-project-diagram"></i> Software & System Design</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">OOP</span>
+                    <span class="skill-tag">MVC Architecture</span>
+                    <span class="skill-tag">RESTful APIs</span>
+                    <span class="skill-tag">Database Design</span>
+                    <span class="skill-tag">System Integration</span>
+                </div>
+            </div>
+
+            <div class="skill-category card-hover">
+                <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Leadership</span>
+                    <span class="skill-tag">Problem-Solving</span>
+                    <span class="skill-tag">Communication</span>
+                    <span class="skill-tag">Project Planning</span>
+                    <span class="skill-tag">Time Management</span>
+                    <span class="skill-tag">Team Collaboration</span>
+                    <span class="skill-tag">Adaptability</span>
+                    <span class="skill-tag">Creativity</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="experience" class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="experience-timeline">
+                <div class="timeline-item card-hover" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <div class="timeline-date">SEP 2020 - JUN 2025</div>
+                        <div class="timeline-title">Bachelor in Software Applications Development</div>
+                        <div class="timeline-company">University of Technology and Applied Sciences, Ibri</div>
+                        <div class = "timeline-company"> 3.21/4.0 - Specialized in Software Application Development</div>
+                    </div>
+                    <figure style="max-width: 200px; margin-left: 2rem;">
+                        <img src="certificates/Graduation.jpeg" alt="Graduation Statement Certificate" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer;" class="lightbox-trigger">
+                        <figcaption class="visually-hidden">Graduation Statement</figcaption>
+                    </figure>
+                </div>
+    
+                <div class="timeline-item card-hover" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <div class="timeline-date">JUL - AUG 2024</div>
+                        <div class="timeline-title">On-Job Training</div>
+                        <div class="timeline-company">Omantel HQ</div>
+                        <div class="timeline-company">
+                            <ul>
+                             <li>Gained hands-on experience in IT operations</li>
+                             <li>Worked with industry technology systems</li>
+                             <li>Collaborated with professional teams</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <figure style="max-width: 200px; margin-left: 2rem;">
+                        <img src="certificates/2024 omantel.png" alt="On-Job Training Certificate" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); cursor: pointer;" class="lightbox-trigger">
+                        <figcaption class="visually-hidden">Omantel Training Certificate</figcaption>
+                    </figure>
+                </div>
+    
+                <div class="timeline-item card-hover">
+                    <div class="timeline-date">SEP 2018 - JUN 2020</div>
+                    <div class="timeline-title">General Education Diploma (GED)</div>
+                    <div class="timeline-company">Mazin Bin Ghadhouba, Samail</div>
+                    <div class="timeline-company">Completed foundational education with excellence in mathematics and English</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="certificates" class="section">
+    <div class="container">
+        <h2 class="section-title">Certificates & Achievements</h2>
+        <div class="certificates-grid">
+           
+
+            <div class="certificate-card card-hover">
+                <div class="certificate-images">
+                    <div class="cert-image">
+                        <img src="certificates/Conference Shinas 2024.png" alt="Certificate Image 1" onerror="this.parentElement.innerHTML='<i class=\'fas fa-certificate fa-3x\'></i>'" data-index="0" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/Conference Shinas 2 2024.jpg" alt="Certificate Image 1" onerror="this.parentElement.innerHTML='<i class=\'fas fa-certificate fa-3x\'></i>'" data-index="0" class="lightbox-trigger">
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <div class="certificate-title">IEEE Research Publication (2024)</div>
+                    <div class="certificate-description">Presented a research paper titled "A Study on the Development and Evaluation of a Smart Home System Using IoT and AI Technologies in Oman" at the 2nd National Conference, Shinas College of Technology, 2024.</div>
+                </div>
+            </div>
+
+            <div class="certificate-card card-hover">
+                <div class="certificate-images">
+                    <div class="cert-image">
+                        <img src="certificates/project title.png" alt="Certificate Image 3" onerror="this.parentElement.innerHTML='<i class=\'fas fa-medal fa-3x\'></i>'" data-index="2" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/2024 end final year project.png" alt="Certificate Image 1" onerror="this.parentElement.innerHTML='<i class=\'fas fa-trophy fa-3x\'></i>'" data-index="1" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/2024 final year project.png" alt="Certificate Image 2" onerror="this.parentElement.innerHTML='<i class=\'fas fa-medal fa-3x\'></i>'" data-index="2" class="lightbox-trigger">
+                    </div>
+                   
+                </div>
+                <div class="certificate-content">
+                    <div class="certificate-title">First Place - Student Projects Competition (2024)</div>
+                    <div class="certificate-description">Won first place in the university's student projects competition, showcasing innovative solutions and technical excellence in software development and project implementation.</div>
+                </div>
+            </div>
+
+            <div class="certificate-card card-hover">
+                <div class="certificate-images">
+                    <div class="cert-image">
+                        <img src="certificates/international Ai 2025.png" alt="Certificate Image 1" onerror="this.parentElement.innerHTML='<i class=\'fas fa-robot fa-3x\'></i>'" data-index="3" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/oct2024.png" alt="Certificate Image 2" onerror="this.parentElement.innerHTML='<i class=\'fas fa-brain fa-3x\'></i>'" data-index="4" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/OSHA 2024.png" alt="Certificate Image 2" onerror="this.parentElement.innerHTML='<i class=\'fas fa-brain fa-3x\'></i>'" data-index="4" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/python 2024.png" alt="Certificate Image 2" onerror="this.parentElement.innerHTML='<i class=\'fas fa-brain fa-3x\'></i>'" data-index="4" class="lightbox-trigger">
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <div class="certificate-title">AI & ML Training Certificates (2024-2025)</div>
+                    <div class="certificate-description">Completed multiple AI training programs including AI Empowerment Workshop at Presidency College, Bangalore. These certifications validate my expertise in artificial intelligence and machine learning technologies.</div>
+                </div>
+            </div>
+
+            <div class="certificate-card card-hover">
+                <div class="certificate-images">
+                    <div class="cert-image">
+                        <img src="certificates/2023 Utasibri.png" alt="Certificate Image 1" onerror="this.parentElement.innerHTML='<i class=\'fas fa-code fa-3x\'></i>'" data-index="7" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/2023 Utasibri2.png" alt="Certificate Image 2" onerror="this.parentElement.innerHTML='<i class=\'fas fa-laptop-code fa-3x\'></i>'" data-index="8" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/2022 casibri2.png" alt="Certificate Image 2" onerror="this.parentElement.innerHTML='<i class=\'fas fa-star fa-3x\'></i>'" data-index="10" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/2022 sharqiyah.png" alt="Certificate Image 2" onerror="this.parentElement.innerHTML='<i class=\'fas fa-star fa-3x\'></i>'" data-index="10" class="lightbox-trigger">
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <div class="certificate-title">Hackathon Achievements</div>
+                    <div class="certificate-description">Multiple hackathon participations including Third Place in Hackathon Himaya by Social Protection Fund, qualified for finals in Omantel-Mwasalat National Hackathon Khasab, and participation in various innovation competitions demonstrating problem-solving skills.</div>
+                </div>
+            </div>
+
+            <div class="certificate-card card-hover">
+                <div class="certificate-images">
+                    <div class="cert-image">
+                        <img src="certificates/2023 casibri.png" alt="Certificate Image 1" onerror="this.parentElement.innerHTML='<i class=\'fas fa-graduation-cap fa-3x\'></i>'" data-index="9" class="lightbox-trigger">
+                    </div>
+                    <div class="cert-image">
+                        <img src="certificates/2024 casMath.png" alt="Certificate Image 2" onerror="this.parentElement.innerHTML='<i class=\'fas fa-laptop-code fa-3x\'></i>'" data-index="8" class="lightbox-trigger">
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <div class="certificate-title">Academic Excellence Awards</div>
+                    <div class="certificate-description">Received Academic Excellence Award in IT (May 2023), won 2nd place in Math Competition at Tech Marathon, and Best Math Poster award, demonstrating consistent academic performance and analytical thinking skills.</div>
+                </div>
+            </div>
+
+            <div class="certificate-card card-hover" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 2rem;">
+                <div class="certificate-images" style="width: 100%; max-width: 400px; margin-bottom: 1.5rem;">
+                    <div class="cert-image" style="width: 100%;">
+                        <img src="certificates/AWS AI & ML.png" alt="AWS ML Foundations Certificate" onerror="this.parentElement.innerHTML='<i class=\'fab fa-aws fa-5x\'></i>'" data-index="3" class="lightbox-trigger" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 12px 28px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'">
+                    </div>
+                </div>
+                <div class="certificate-content" style="width: 100%;">
+                    <div class="certificate-title" style="font-size: 1.3rem; font-weight: bold; margin-bottom: 1rem; color: var(--primary-color);">AWS Educate - Machine Learning Foundations (2025)</div>
+                    <div class="certificate-description" style="font-size: 1rem; line-height: 1.6; color: var(--text-secondary);">Completed comprehensive machine learning foundations training through Amazon Web Services, gaining expertise in ML concepts, AWS ML services, and practical applications of artificial intelligence in cloud environments.</div>
+                </div>
+            </div>
+            
+            <div class="certificate-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 2rem;">
+                <div class="certificate-images" style="width: 100%; max-width: 400px; margin-bottom: 1.5rem;">
+                    <div class="cert-image" style="width: 100%;">
+                        <img src="certificates/AZ-900 2025.png" alt="Azure AZ-900 Certificate" onerror="this.parentElement.innerHTML='<i class=\'fab fa-microsoft fa-5x\'></i>'" data-index="4" class="lightbox-trigger" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); transition: transform 0.3s ease, box-shadow 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 12px 28px rgba(0,0,0,0.2)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.15)'">
+                    </div>
+                </div>
+                <div class="certificate-content" style="width: 100%;">
+                    <div class="certificate-title" style="font-size: 1.3rem; font-weight: bold; margin-bottom: 1rem; color: var(--primary-color);">Microsoft Azure Fundamentals (AZ-900) - Smartovate (2025)</div>
+                    <div class="certificate-description" style="font-size: 1rem; line-height: 1.6; color: var(--text-secondary);">Successfully completed Microsoft Azure Fundamentals certification training through Smartovate Subul Program, demonstrating proficiency in cloud concepts, Azure services, security, privacy, compliance, and pricing models.</div>
+                </div>
+            </div>
+
+            <div class="certificate-card card-hover">
+                <div class="certificate-images">
+                    <div class="cert-image">
+                        <img src="certificates/Upgrade 2025.jpg" alt="Upgrade Program Certificate" onerror="this.parentElement.innerHTML='<i class=\'fas fa-award fa-3x\'></i>'" data-index="11" class="lightbox-trigger">
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <div class="certificate-title">Upgrade Program Recognition (29-Oct-2025)</div>
+                    <div class="certificate-description">Recognized by Upgrade Oman for showcasing Magan - GPT, my privacy-first home assistant graduation project focused on secure, offline smart living.</div>
+                </div>
+            </div>
+
+            <div class="certificate-card card-hover">
+                <div class="certificate-images">
+                    <div class="cert-image">
+                        <img src="certificates/outerbound oman.png" alt="Outerbound Oman Certificate" onerror="this.parentElement.innerHTML='<i class=\'fas fa-mountain fa-3x\'></i>'" data-index="12" class="lightbox-trigger">
+                    </div>
+                </div>
+                <div class="certificate-content">
+                    <div class="certificate-title">Outerbound Oman Leadership Program (22-Oct-2025)</div>
+                    <div class="certificate-description">Completed the Outerbound Oman experiential learning course focused on teamwork, resilience, and outdoor leadership skills.</div>
+                </div>
+            </div>
+
+            <!-- Additional Certificates -->
+        
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Lightbox Modal -->
+<div id="lightbox-modal" class="lightbox-modal" style="display:none;">
+    <span class="lightbox-close" id="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-image" src="" alt="Full View Certificate">
+    <a class="lightbox-prev" id="lightbox-prev">&#10094;</a>
+    <a class="lightbox-next" id="lightbox-next">&#10095;</a>
+</div>
+
+<style>
+/* Enhanced Lightbox Modal with Animations */
+.lightbox-modal {
+    position: fixed;
+    z-index: 2000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    animation: zoomIn 0.4s ease-out;
+    transition: transform 0.3s ease;
+}
+
+.lightbox-content:hover {
+    transform: scale(1.02);
+}
+
+@keyframes zoomIn {
+    from { 
+        transform: scale(0.8); 
+        opacity: 0; 
+    }
+    to { 
+        transform: scale(1); 
+        opacity: 1; 
+    }
+}
+
+.lightbox-close {
+    position: fixed;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    z-index: 2100;
+    transition: all 0.3s ease;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+}
+
+.lightbox-close:hover {
+    background: rgba(255,255,255,0.2);
+    transform: rotate(90deg) scale(1.1);
+    color: #ff6b6b;
+}
+
+.lightbox-prev, .lightbox-next {
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 16px;
+    margin-top: -30px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    user-select: none;
+    z-index: 2100;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    display: none; /* Hide by default */
+}
+
+/* Only show navigation arrows when lightbox is visible */
+.lightbox-modal:not([style*="display: none"]) .lightbox-prev,
+.lightbox-modal:not([style*="display: none"]) .lightbox-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox-prev:hover, .lightbox-next:hover {
+    background: rgba(255,255,255,0.2);
+    transform: scale(1.1);
+    color: #4ecdc4;
+}
+
+.lightbox-prev {
+    left: 20px;
+}
+
+.lightbox-next {
+    right: 20px;
+}
+
+/* Enhanced Page Animations */
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(180deg);
+    }
+}
+
+@keyframes glow {
+    0%, 100% {
+        box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(37, 99, 235, 0.6);
+    }
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Enhanced Floating Elements */
+.floating-elements {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.floating-element {
+    position: absolute;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    border-radius: 50%;
+    opacity: 0.1;
+    animation: float 6s ease-in-out infinite;
+    filter: blur(1px);
+}
+
+.floating-element:nth-child(1) {
+    animation-delay: 0s;
+    animation-duration: 8s;
+}
+
+.floating-element:nth-child(2) {
+    animation-delay: 2s;
+    animation-duration: 10s;
+}
+
+.floating-element:nth-child(3) {
+    animation-delay: 4s;
+    animation-duration: 12s;
+}
+
+/* Enhanced Hero Section */
+.hero {
+    animation: fadeInUp 1s ease-out;
+}
+
+.hero-text h1 {
+    animation: slideInFromLeft 1s ease-out 0.3s both;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.subtitle {
+    animation: slideInFromLeft 1s ease-out 0.6s both;
+}
+
+.hero-text p {
+    animation: slideInFromLeft 1s ease-out 0.9s both;
+}
+
+.cta-buttons {
+    animation: slideInFromLeft 1s ease-out 1.2s both;
+}
+
+.hero-image {
+    animation: slideInFromRight 1s ease-out 0.6s both;
+}
+
+/* Enhanced Profile Card */
+.profile-card {
+    animation: fadeInUp 1s ease-out 0.9s both;
+    transition: all 0.4s ease;
+}
+
+.profile-card:hover {
+    transform: rotate(0deg) scale(1.05);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+}
+
+.profile-pic {
+    transition: all 0.4s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+    animation: glow 2s ease-in-out infinite;
+}
+
+/* Enhanced Section Animations */
+.section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.section.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section-title {
+    animation: slideInFromTop 1s ease-out both;
+}
+
+/* Enhanced Skill Categories */
+.skill-category {
+    animation: fadeInUp 0.8s ease-out both;
+    transition: all 0.4s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.skill-tag {
+    transition: all 0.3s ease;
+    animation: fadeInUp 0.6s ease-out both;
+}
+
+.skill-tag:hover {
+    transform: scale(1.1);
+    animation: pulse 1s ease-in-out infinite;
+}
+
+/* Enhanced Timeline Items */
+.timeline-item {
+    animation: slideInFromLeft 0.8s ease-out both;
+    transition: all 0.4s ease;
+}
+
+.timeline-item:nth-child(even) {
+    animation: slideInFromRight 0.8s ease-out both;
+}
+
+.timeline-item:hover {
+    transform: translateX(10px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Enhanced Certificate Cards */
+.certificate-card {
+    animation: fadeInUp 0.8s ease-out both;
+    transition: all 0.4s ease;
+}
+
+.certificate-card:hover {
+    transform: translateY(-15px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+}
+
+.cert-image {
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+
+.cert-image:hover {
+    transform: scale(1.05);
+}
+
+.cert-image img {
+    transition: all 0.4s ease;
+}
+
+.cert-image:hover img {
+    transform: scale(1.1);
+}
+
+/* Enhanced Contact Items */
+.contact-item {
+    animation: slideInFromLeft 0.8s ease-out both;
+    transition: all 0.4s ease;
+}
+
+.contact-item:hover {
+    transform: translateX(15px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.contact-icon {
+    transition: all 0.4s ease;
+}
+
+.contact-item:hover .contact-icon {
+    transform: scale(1.1) rotate(5deg);
+    animation: pulse 1s ease-in-out infinite;
+}
+
+/* Enhanced Social Links */
+.social-link {
+    transition: all 0.4s ease;
+    animation: fadeInUp 0.8s ease-out both;
+}
+
+.social-link:hover {
+    transform: scale(1.2) rotate(5deg);
+    animation: pulse 1s ease-in-out infinite;
+}
+
+/* Enhanced Buttons */
+.btn {
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s;
+}
+
+.btn:hover::before {
+    left: 100%;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(37, 99, 235, 0.4);
+}
+
+.btn-secondary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(37, 99, 235, 0.3);
+}
+
+/* Enhanced Resume Section */
+.resume-section {
+    animation: fadeInUp 1s ease-out both;
+    transition: all 0.4s ease;
+}
+
+.resume-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* Enhanced Navigation */
+.nav-container {
+    animation: slideInFromTop 0.8s ease-out;
+}
+
+nav[role="navigation"] a {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav[role="navigation"] a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+nav[role="navigation"] a:hover::after {
+    width: 100%;
+}
+
+/* Enhanced Theme Toggle */
+.theme-toggle {
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1) rotate(180deg);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Enhanced Mobile Menu */
+.mobile-menu {
+    transition: all 0.3s ease;
+}
+
+.mobile-menu:hover {
+    transform: scale(1.1);
+    color: var(--primary-color);
+}
+
+/* Responsive Animations */
+@media (max-width: 768px) {
+    .hero-text h1,
+    .subtitle,
+    .hero-text p,
+    .cta-buttons {
+        animation: slideInFromTop 0.8s ease-out both;
+    }
+    
+    .hero-image {
+        animation: slideInFromTop 0.8s ease-out 0.3s both;
+    }
+}
+
+/* Loading Animation */
+@keyframes shimmer {
+    0% {
+        background-position: -200px 0;
+    }
+    100% {
+        background-position: calc(200px + 100%) 0;
+    }
+}
+
+.loading {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200px 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+/* Enhanced Scroll Animations */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Enhanced Hover Effects */
+.hover-lift {
+    transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Enhanced Text Effects */
+.gradient-text {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: glow 2s ease-in-out infinite;
+}
+
+/* Enhanced Card Hover Effects */
+.card-hover {
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.card-hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, transparent, rgba(37, 99, 235, 0.1));
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    border-radius: inherit;
+}
+
+.card-hover:hover::before {
+    opacity: 1;
+}
+
+.card-hover:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('.lightbox-trigger');
+    const modal = document.getElementById('lightbox-modal');
+    const modalImg = document.getElementById('lightbox-image');
+    const closeBtn = document.getElementById('lightbox-close');
+    const prevBtn = document.getElementById('lightbox-prev');
+    const nextBtn = document.getElementById('lightbox-next');
+
+    let currentIndex = 0;
+
+    function openModal(index) {
+        currentIndex = index;
+        modal.style.display = 'flex';
+        modalImg.src = images[currentIndex].src;
+        modalImg.alt = images[currentIndex].alt;
+    }
+
+    function closeModal() {
+        modal.style.display = 'none';
+    }
+
+    function showPrev() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        modalImg.src = images[currentIndex].src;
+        modalImg.alt = images[currentIndex].alt;
+    }
+
+    function showNext() {
+        currentIndex = (currentIndex + 1) % images.length;
+        modalImg.src = images[currentIndex].src;
+        modalImg.alt = images[currentIndex].alt;
+    }
+
+    images.forEach((img, index) => {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => openModal(index));
+    });
+
+    closeBtn.addEventListener('click', closeModal);
+    prevBtn.addEventListener('click', showPrev);
+    nextBtn.addEventListener('click', showNext);
+
+    window.addEventListener('keydown', (e) => {
+        if (modal.style.display === 'flex') {
+            if (e.key === 'Escape') {
+                closeModal();
+            } else if (e.key === 'ArrowLeft') {
+                showPrev();
+            } else if (e.key === 'ArrowRight') {
+                showNext();
+            }
+        }
+    });
+});
+</script>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <section class="resume-section">
+        <div class="container">
+            <h2 style="margin-bottom: 1rem;">Download My Resume</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 2rem;">Get a detailed overview of my experience, skills, and achievements</p>
+            <a href="certificates/Mohammad US Resume.pdf" class="btn btn-primary" style="font-size: 1.1rem; padding: 1rem 2.5rem;">
+                <i class="fas fa-file-pdf"></i> Download PDF Resume
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>mohamali.jobs@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+968 92421050</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Samail, Ad-Dakhiliya, Oman</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/asali1" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Ashraf9242" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:mohamali.jobs@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+<div class="contact-form">
+    <form style="display: flex; flex-direction: column; gap: 1.5rem;" onsubmit="event.preventDefault(); sendEmail();">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <input type="text" id="name" placeholder="Your Name" style="padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; background: var(--bg-card); color: var(--text-primary); font-size: 1rem;" required>
+            <input type="email" id="email" placeholder="Your Email" style="padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; background: var(--bg-card); color: var(--text-primary); font-size: 1rem;" required>
+        </div>
+        <input type="text" id="subject" placeholder="Subject" style="padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; background: var(--bg-card); color: var(--text-primary); font-size: 1rem;" required>
+        <textarea id="message" placeholder="Your Message" rows="6" style="padding: 1rem; border: 2px solid var(--border-color); border-radius: 10px; background: var(--bg-card); color: var(--text-primary); font-size: 1rem; resize: vertical;" required></textarea>
+        <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+            <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+    </form>
+</div>
+
+<script>
+function sendEmail() {
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const subject = document.getElementById('subject').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !email || !subject || !message) {
+        alert('Please fill in all fields.');
+        return;
+    }
+
+    const mailtoLink = `mailto:mohamali.jobs@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+    window.location.href = mailtoLink;
+}
+</script>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background: var(--bg-card); padding: 2rem 0; text-align: center; border-top: 1px solid var(--border-color);">
+        <div class="container">
+            <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                © 2025 Mohammad Ashraf Ali. All rights reserved.
+            </p>
+            <p style="color: var(--text-secondary); font-size: 0.9rem;">
+                Built with passion for innovation and technology
+            </p>
+        </div>
+    </footer>
+
+    <!-- Enhanced JavaScript for Animations -->
+    <script>
+        // Enhanced Animation System
+        class AnimationController {
+            constructor() {
+                this.init();
+            }
+
+            init() {
+                this.setupScrollAnimations();
+                this.setupInteractiveElements();
+                this.setupParallaxEffects();
+                this.setupTypingEffect();
+                this.setupFloatingElements();
+                this.setupHoverEffects();
+                this.setupThemeToggle();
+                this.setupMobileMenu();
+                this.setupSmoothScrolling();
+                this.setupLoadingStates();
+            }
+
+            // Scroll-triggered animations
+            setupScrollAnimations() {
+                const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                };
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animate');
+                            entry.target.style.animationDelay = `${Math.random() * 0.5}s`;
+                        }
+                    });
+                }, observerOptions);
+
+                // Observe all sections and cards
+                document.querySelectorAll('.section, .skill-category, .timeline-item, .certificate-card, .contact-item').forEach(el => {
+                    observer.observe(el);
+                });
+            }
+
+            // Interactive element animations
+            setupInteractiveElements() {
+                // Add ripple effect to buttons
+                document.querySelectorAll('.btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        const ripple = document.createElement('span');
+                        const rect = btn.getBoundingClientRect();
+                        const size = Math.max(rect.width, rect.height);
+                        const x = e.clientX - rect.left - size / 2;
+                        const y = e.clientY - rect.top - size / 2;
+
+                        ripple.style.cssText = `
+                            position: absolute;
+                            width: ${size}px;
+                            height: ${size}px;
+                            left: ${x}px;
+                            top: ${y}px;
+                            background: rgba(255, 255, 255, 0.3);
+                            border-radius: 50%;
+                            transform: scale(0);
+                            animation: ripple 0.6s linear;
+                            pointer-events: none;
+                        `;
+
+                        btn.appendChild(ripple);
+                        setTimeout(() => ripple.remove(), 600);
+                    });
+                });
+
+                // Add floating animation to skill tags
+                document.querySelectorAll('.skill-tag').forEach((tag, index) => {
+                    tag.style.animationDelay = `${index * 0.1}s`;
+                    tag.addEventListener('mouseenter', () => {
+                        tag.style.animation = 'pulse 0.6s ease-in-out, glow 2s ease-in-out infinite';
+                    });
+                    tag.addEventListener('mouseleave', () => {
+                        tag.style.animation = 'fadeInUp 0.6s ease-out both';
+                    });
+                });
+            }
+
+            // Parallax effects for floating elements
+            setupParallaxEffects() {
+                window.addEventListener('scroll', () => {
+                    const scrolled = window.pageYOffset;
+                    const parallaxElements = document.querySelectorAll('.floating-element');
+                    
+                    parallaxElements.forEach((element, index) => {
+                        const speed = 0.5 + (index * 0.1);
+                        const yPos = -(scrolled * speed);
+                        element.style.transform = `translateY(${yPos}px) rotate(${scrolled * 0.1}deg)`;
+                    });
+                });
+            }
+
+            // Typing effect for hero title
+            setupTypingEffect() {
+                const heroTitle = document.querySelector('.hero-text h1');
+                if (heroTitle) {
+                    const text = heroTitle.textContent;
+                    heroTitle.textContent = '';
+                    heroTitle.style.overflow = 'hidden';
+                    heroTitle.style.whiteSpace = 'nowrap';
+                    heroTitle.style.borderRight = '3px solid var(--primary-color)';
+                    heroTitle.style.animation = 'blink 0.75s step-end infinite';
+
+                    let i = 0;
+                    const typeWriter = () => {
+                        if (i < text.length) {
+                            heroTitle.textContent += text.charAt(i);
+                            i++;
+                            setTimeout(typeWriter, 100);
+                        } else {
+                            setTimeout(() => {
+                                heroTitle.style.borderRight = 'none';
+                                heroTitle.style.animation = 'none';
+                            }, 1000);
+                        }
+                    };
+
+                    setTimeout(typeWriter, 1000);
+                }
+            }
+
+            // Enhanced floating elements
+            setupFloatingElements() {
+                const floatingElements = document.querySelectorAll('.floating-element');
+                
+                floatingElements.forEach((element, index) => {
+                    element.addEventListener('mouseenter', () => {
+                        element.style.animation = 'pulse 1s ease-in-out infinite, glow 2s ease-in-out infinite';
+                    });
+                    
+                    element.addEventListener('mouseleave', () => {
+                        element.style.animation = `float ${8 + index * 2}s ease-in-out infinite, morphing ${10 + index * 2}s ease-in-out infinite`;
+                    });
+                });
+            }
+
+            // Enhanced hover effects
+            setupHoverEffects() {
+                // Add magnetic effect to cards
+                document.querySelectorAll('.skill-category, .timeline-item, .certificate-card').forEach(card => {
+                    card.addEventListener('mousemove', (e) => {
+                        const rect = card.getBoundingClientRect();
+                        const x = e.clientX - rect.left;
+                        const y = e.clientY - rect.top;
+                        
+                        const centerX = rect.width / 2;
+                        const centerY = rect.height / 2;
+                        
+                        const rotateX = (y - centerY) / 10;
+                        const rotateY = (centerX - x) / 10;
+                        
+                        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.02)`;
+                    });
+                    
+                    card.addEventListener('mouseleave', () => {
+                        card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1)';
+                    });
+                });
+            }
+
+            // Enhanced theme toggle
+            setupThemeToggle() {
+                const themeToggle = document.querySelector('.theme-toggle');
+                if (themeToggle) {
+                    themeToggle.addEventListener('click', () => {
+                        const currentTheme = document.documentElement.getAttribute('data-theme');
+                        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                        
+                        document.documentElement.setAttribute('data-theme', newTheme);
+                        localStorage.setItem('theme', newTheme);
+                        
+                        // Add animation to theme toggle
+                        themeToggle.style.animation = 'bounceIn 0.6s ease-in-out';
+                        setTimeout(() => {
+                            themeToggle.style.animation = '';
+                        }, 600);
+                    });
+                }
+            }
+
+            // Enhanced mobile menu
+            setupMobileMenu() {
+                const mobileMenu = document.querySelector('.mobile-menu');
+                const nav = document.querySelector('nav[role="navigation"] ul');
+                
+                if (mobileMenu && nav) {
+                    mobileMenu.addEventListener('click', () => {
+                        nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+                        nav.style.animation = nav.style.display === 'flex' ? 'slideInFromTop 0.3s ease-out' : 'slideInFromTop 0.3s ease-out reverse';
+                    });
+                }
+            }
+
+            // Smooth scrolling for navigation
+            setupSmoothScrolling() {
+                document.querySelectorAll('nav[role="navigation"] a[href^="#"]').forEach(anchor => {
+                    anchor.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        const target = document.querySelector(anchor.getAttribute('href'));
+                        if (target) {
+                            target.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }
+                    });
+                });
+            }
+
+            // Loading states and skeleton screens
+            setupLoadingStates() {
+                // Simulate loading for dynamic content
+                const loadingElements = document.querySelectorAll('.loading');
+                loadingElements.forEach(element => {
+                    setTimeout(() => {
+                        element.classList.remove('loading');
+                        element.style.animation = 'fadeInUp 0.6s ease-out';
+                    }, Math.random() * 2000 + 1000);
+                });
+            }
+        }
+
+        // Enhanced Lightbox functionality
+        class EnhancedLightbox {
+            constructor() {
+                this.currentIndex = 0;
+                this.images = [];
+                this.init();
+            }
+
+            init() {
+                this.setupEventListeners();
+                this.setupKeyboardNavigation();
+                this.setupTouchGestures();
+            }
+
+            setupEventListeners() {
+                // Enhanced image click handling
+                document.querySelectorAll('.cert-image img').forEach((img, index) => {
+                    img.addEventListener('click', () => this.openLightbox(index));
+                });
+
+                // Enhanced lightbox controls
+                document.querySelector('.lightbox-close')?.addEventListener('click', () => this.closeLightbox());
+                document.querySelector('.lightbox-prev')?.addEventListener('click', () => this.prevImage());
+                document.querySelector('.lightbox-next')?.addEventListener('click', () => this.nextImage());
+            }
+
+            setupKeyboardNavigation() {
+                document.addEventListener('keydown', (e) => {
+                    if (document.querySelector('.lightbox-modal')?.style.display === 'flex') {
+                        switch(e.key) {
+                            case 'Escape':
+                                this.closeLightbox();
+                                break;
+                            case 'ArrowLeft':
+                                this.prevImage();
+                                break;
+                            case 'ArrowRight':
+                                this.nextImage();
+                                break;
+                        }
+                    }
+                });
+            }
+
+            setupTouchGestures() {
+                let startX = 0;
+                let startY = 0;
+
+                document.querySelector('.lightbox-modal')?.addEventListener('touchstart', (e) => {
+                    startX = e.touches[0].clientX;
+                    startY = e.touches[0].clientY;
+                });
+
+                document.querySelector('.lightbox-modal')?.addEventListener('touchend', (e) => {
+                    const endX = e.changedTouches[0].clientX;
+                    const endY = e.changedTouches[0].clientY;
+                    const diffX = startX - endX;
+                    const diffY = startY - endY;
+
+                    if (Math.abs(diffX) > Math.abs(diffY) && Math.abs(diffX) > 50) {
+                        if (diffX > 0) {
+                            this.nextImage();
+                        } else {
+                            this.prevImage();
+                        }
+                    }
+                });
+            }
+
+            openLightbox(index) {
+                this.currentIndex = index;
+                this.images = Array.from(document.querySelectorAll('.cert-image img')).map(img => img.src);
+                
+                const modal = document.querySelector('.lightbox-modal');
+                const content = document.querySelector('.lightbox-content');
+                
+                if (modal && content) {
+                    modal.style.display = 'flex';
+                    content.src = this.images[index];
+                    content.alt = `Certificate ${index + 1}`;
+                    
+                    // Add entrance animation
+                    modal.style.animation = 'fadeIn 0.3s ease-out';
+                    content.style.animation = 'zoomIn 0.4s ease-out';
+                }
+            }
+
+            closeLightbox() {
+                const modal = document.querySelector('.lightbox-modal');
+                if (modal) {
+                    modal.style.animation = 'fadeOut 0.3s ease-out';
+                    setTimeout(() => {
+                        modal.style.display = 'none';
+                    }, 300);
+                }
+            }
+
+            prevImage() {
+                this.currentIndex = (this.currentIndex - 1 + this.images.length) % this.images.length;
+                this.updateImage();
+            }
+
+            nextImage() {
+                this.currentIndex = (this.currentIndex + 1) % this.images.length;
+                this.updateImage();
+            }
+
+            updateImage() {
+                const content = document.querySelector('.lightbox-content');
+                if (content) {
+                    content.style.animation = 'flipInY 0.4s ease-out';
+                    content.src = this.images[this.currentIndex];
+                    content.alt = `Certificate ${this.currentIndex + 1}`;
+                }
+            }
+        }
+
+        // Performance optimization: Debounce function
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // Enhanced scroll performance
+        const optimizedScrollHandler = debounce(() => {
+            // Handle scroll-based animations efficiently
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.floating-element');
+            
+            requestAnimationFrame(() => {
+                parallaxElements.forEach((element, index) => {
+                    const speed = 0.5 + (index * 0.1);
+                    const yPos = -(scrolled * speed);
+                    element.style.transform = `translateY(${yPos}px) rotate(${scrolled * 0.1}deg)`;
+                });
+            });
+        }, 16); // 60fps
+
+        window.addEventListener('scroll', optimizedScrollHandler);
+
+        // Initialize everything when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initialize animation controller
+            new AnimationController();
+            
+            // Initialize enhanced lightbox
+            new EnhancedLightbox();
+            
+            // Add CSS animations for ripple effect
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes ripple {
+                    to {
+                        transform: scale(4);
+                        opacity: 0;
+                    }
+                }
+                
+                @keyframes blink {
+                    from, to { border-color: transparent }
+                    50% { border-color: var(--primary-color) }
+                }
+                
+                @keyframes fadeOut {
+                    from { opacity: 1; }
+                    to { opacity: 0; }
+                }
+                
+                @keyframes flipInY {
+                    0% {
+                        opacity: 0;
+                        transform: perspective(400px) rotateY(90deg);
+                    }
+                    40% {
+                        transform: perspective(400px) rotateY(-20deg);
+                    }
+                    60% {
+                        transform: perspective(400px) rotateY(10deg);
+                    }
+                    80% {
+                        transform: perspective(400px) rotateY(-5deg);
+                    }
+                    100% {
+                        opacity: 1;
+                        transform: perspective(400px) rotateY(0deg);
+                    }
+                }
+            `;
+            document.head.appendChild(style);
+            
+            // Preload theme preference
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        });
+
+        // Enhanced window resize handling
+        window.addEventListener('resize', debounce(() => {
+            // Recalculate animations and layouts on resize
+            const animationController = new AnimationController();
+        }, 250));
+    </script>
+</body>
+</html>
